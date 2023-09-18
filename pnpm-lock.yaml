@@ -23,9 +23,6 @@ dependencies:
   postcss:
     specifier: ^8.4.29
     version: 8.4.29
-  simple-git-hooks:
-    specifier: ^2.9.0
-    version: 2.9.0
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
@@ -73,6 +70,9 @@ devDependencies:
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
+  simple-git-hooks:
+    specifier: ^2.9.0
+    version: 2.9.0
   typescript:
     specifier: ~5.1.6
     version: 5.1.6
@@ -4560,7 +4560,7 @@ packages:
     resolution: {integrity: sha512-waSQ5paUQtyGC0ZxlHmcMmD9I1rRXauikBwX31bX58l5vTOhCEcBC5Bi+ZDkPXTjDnZAF8TbCqKBY+9+sVPScw==}
     hasBin: true
     requiresBuild: true
-    dev: false
+    dev: true
 
   /sirv@2.0.3:
     resolution: {integrity: sha512-O9jm9BsID1P+0HOi81VpXPoDxYP374pkOLzACAoyUQ/3OUVndNpsz6wMnY2z+yOxzbllCKZrM+9QrWsv4THnyA==}
