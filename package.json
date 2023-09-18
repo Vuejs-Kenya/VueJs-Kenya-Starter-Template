@@ -13,7 +13,7 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint .",
-    "lint:fix": "nr lint --fix"
+    "lint:fix": "nr lint --fix",
   },
   "dependencies": {
     "@antfu/ni": "^0.21.8",
