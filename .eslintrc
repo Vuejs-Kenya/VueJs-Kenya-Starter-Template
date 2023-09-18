@@ -1,0 +1,6 @@
+{
+    "extends": "@antfu"
+    // "rules": {
+        // You can define your own custom rules inside here
+    // }
+}
