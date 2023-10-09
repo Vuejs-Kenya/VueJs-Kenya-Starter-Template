@@ -2,6 +2,12 @@
 module.exports = {
   darkMode: 'class',
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        Inter: 'inter',
+      },
+    },
+  },
   plugins: [],
 }
