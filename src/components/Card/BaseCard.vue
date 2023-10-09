@@ -20,19 +20,19 @@ const { elementX, elementY } = useMouseInElement(card)
       <div
         class="absolute inset-0 icon rounded-[11px] grid place-items-center bg-[#202023] p-4 transition-colors duration-300 group-hover:bg-[#27272a]"
       >
-        <div class="relative grid place-items-center p-4">
+        <div class="relative grid p-4 place-items-center">
           <div class="grid place-items-center">
             <slot name="icon" />
           </div>
 
           <div>
             <div class="mt-5">
-              <h1 class=" text-2xl font-medium text-white">
+              <h1 class="text-2xl font-medium text-white ">
                 {{ title }}
               </h1>
             </div>
 
-            <div class="mt-3 text-sm font-light text-white/70">
+            <div class="mt-3 text-sm font-light leading-6 text-white/70">
               <slot />
             </div>
           </div>
