@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-6 space-y-4 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div class="gap-8 mt-6 space-y-4 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3">
     <BaseCard link="https://github.com/posva/unplugin-vue-router" title="File-Based Routing" color="#22C55E">
       <template #icon>
         <Icon icon="devicon-plain:reactrouter" class="text-4xl text-white group-hover:text-[#22C55E]" />
@@ -91,12 +91,12 @@
         <Icon icon="ph:gear" class="text-4xl text-white group-hover:text-[#27BAC9]" />
       </template>
       <template #default>
-        Boost your productivity with auto imports. Automatic imports for
+        Automatic imports for
         your Vue <a href="https://github.com/unplugin/unplugin-vue-components" target="_blank"><span
-          class="underline text-white"
+          class="text-white underline"
         >components</span></a>, composables, stores, utilities, and <a
           href="https://github.com/antfu/unplugin-auto-import" target="_blank"
-        ><span class="underline text-white">Vue
+        ><span class="text-white underline">Vue
           APIs</span></a>, in your Vue application.
       </template>
     </BaseCard>
