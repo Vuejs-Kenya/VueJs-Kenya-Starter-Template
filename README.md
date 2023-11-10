@@ -17,6 +17,7 @@ A Vue.js Kenya starter template built with TypeScript and packed with powerful f
 - 🎨 **Tailwind CSS**: Utility-first CSS framework for efficient styling.
 - 🧰 **Ni**: Ni is a package that enables you to use the right package manager for your project..
 - 🧩 **VueUse**: A collection of Vue 3 composable functions.
+- ⚙️ **Zero Config Deploy**: Deploy to Netlify without any configuration.
 
 
 ## Pre-packed
