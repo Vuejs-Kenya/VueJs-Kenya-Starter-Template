@@ -18,15 +18,15 @@ const { elementX, elementY } = useMouseInElement(card)
   >
     <a :href="link" target="_blank">
       <div
-        class="absolute inset-0 icon rounded-[11px] grid place-items-center bg-[#202023] p-4 transition-colors duration-300 group-hover:bg-[#27272a]"
+        class="absolute inset-0 icon rounded-[11px] grid place-items-center bg-[#202023] transition-colors duration-300 "
       >
-        <div class="relative grid p-4 place-items-center">
+        <div class="relative grid px-4 place-items-center">
           <div class="grid place-items-center">
             <slot name="icon" />
           </div>
 
           <div>
-            <div class="mt-5">
+            <div class="grid mt-5 place-items-center">
               <h1 class="text-2xl font-medium text-white ">
                 {{ title }}
               </h1>
