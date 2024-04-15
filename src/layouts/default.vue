@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between max-w-7xl mx-auto min-h-screen w-full bg-black">
+  <div class="flex flex-col justify-between w-full min-h-screen mx-auto max-w-7xl">
     <router-view />
     <FooterBar />
   </div>
