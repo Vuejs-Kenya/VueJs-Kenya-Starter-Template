@@ -1,11 +1,11 @@
 <template>
-  <div class="flex justify-center items-center pt-10">
-    <div class="grid place-items-center space-y-10">
+  <div class="flex items-center justify-center pt-10">
+    <div class="grid space-y-10 place-items-center">
       <div class="text-center">
-        <div class="my-4 grid place-items-center">
+        <div class="grid my-4 place-items-center">
           <img
-            src="https://vuejs-kenya.netlify.app/_nuxt/vuejskenyalogo.77f7db40.svg" alt="Vue Js Kenya Logo"
-            class="w-20 h-20"
+            src="https://github.com/Vuejs-Kenya.png" alt="VueJs Kenya Logo"
+            class="w-20 h-20 rounded-lg"
           >
         </div>
         <h1 class="text-xl font-semibold text-white lg:text-5xl">
@@ -17,8 +17,8 @@
         <InputComponent />
       </div>
 
-      <div class="grid place-items-center pt-10">
-        <h1 class="text-white text-4xl">
+      <div class="grid pt-10 place-items-center">
+        <h1 class="text-4xl text-white">
           Features
         </h1>
       </div>
