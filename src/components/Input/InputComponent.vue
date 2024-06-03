@@ -1,13 +1,13 @@
 <script setup lang='ts'>
 const router = useRouter()
 
-const username = ref(null)
+const username = ref('')
 const input = ref()
 
 const nameRoute = computed(() => `/name/${username.value}`)
 
 function handleEnter(): void {
-  if (username.value)
+  if (username.value && username.value.trim() !== '')
     router.push(nameRoute.value)
 }
 
