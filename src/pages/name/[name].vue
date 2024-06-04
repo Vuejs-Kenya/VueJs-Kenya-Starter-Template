@@ -8,11 +8,11 @@ const route = useRoute('/name/[name]')
       <h1 class="text-white text-2xl">
         Welcome : {{ route.params.name }}
       </h1>
-      <button class="py-2 px-4 text-base text-white bg-[#27272A] rounded-md hover:bg-[#1f1f22] transition-all duration-200 ease-in">
-        <router-link to="/">
+      <router-link to="/">
+        <button class="py-2 px-4 text-base text-white bg-[#27272A] rounded-md hover:bg-[#1f1f22] transition-all duration-200 ease-in">
           Go back home
-        </router-link>
-      </button>
+        </button>
+      </router-link>
     </div>
   </div>
 </template>
